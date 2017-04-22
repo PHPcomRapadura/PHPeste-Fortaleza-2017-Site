@@ -1,0 +1,17 @@
+template:
+    directory: web
+    index: index.md
+
+title: Fortaleza | PHPeste 2017
+title_home: PHPeste 2017
+
+exclude:
+    - vendor
+    - composer.json
+    - composer.lock
+    - .couscous
+    - .gitignore
+    - .couscous
+    - .idea
+
+branch: gh-pages
