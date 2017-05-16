@@ -1,0 +1,184 @@
+{% extends "default.twig" %}
+
+{% block content %}
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="cycle-slideshow"
+             data-cycle-fx="fade"
+             data-cycle-slides="> div.bg-cicly"
+             data-cycle-speed="1000">
+            <div class="bg-cicly" style="
+            background: url(img/fortaleza/bg1.jpg) no-repeat center center scroll;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;">
+                <div class="text-vertical-center">
+                    <h1 class="title">{{ title_home }}</h1>
+                    <h3 class="title">O maior evento de PHP do Nordeste</h3>
+                    <br>
+                    <a href="#about" class="btn btn-dark btn-lg">Saiba mais</a>
+                </div>
+            </div>
+            <div class="bg-cicly" style="
+            background: url(img/fortaleza/bg2.jpg) no-repeat center center scroll;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;">
+                <div class="text-vertical-center">
+                    <h1 class="title">{{ title_home }}</h1>
+                    <h3 class="title">3 dias de eventos</h3>
+                    <br>
+                    <a href="#about" class="btn btn-dark btn-lg">Saiba mais</a>
+                </div>
+            </div>
+            <div class="bg-cicly" style="
+            background: url(img/fortaleza/bg3.jpg) no-repeat center center scroll;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;">
+                <div class="text-vertical-center">
+                    <h1 class="title">{{ title_home }}</h1>
+                    <h3 class="title">Com keynotes internacionais</h3>
+                    <br>
+                    <a href="#about" class="btn btn-dark btn-lg">Saiba mais</a>
+                </div>
+            </div>
+            <div class="bg-cicly" style="
+            background: url(img/fortaleza/bg4.jpg) no-repeat center center scroll;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;">
+                <div class="text-vertical-center">
+                    <h1 class="title">{{ title_home }}</h1>
+                    <h3 class="title">O maior evento do nordeste vai ser aqui</h3>
+                    <br>
+                    <a href="#about" class="btn btn-dark btn-lg">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="news" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Novidades</h2>
+                </div>
+                <div class="col-lg-6 text-justify">
+                    <h2 class="text-center">Começamos nossa campanha!</h2>
+                    <p class="lead">PHPeste é uma conferência de PHP organizada pelas comunidades “cabra da peste” do nordeste brasileiro. Já passamos por João Pessoa (PB) e agora é a vez de Salvador (BA) sediar um dos maiores eventos de PHP do Brasil. Essa edição terá início em 08 ... <a href="{{ baseUrl }}/phpeste-2017.html">leia mais</a></p>
+                </div>
+                <div class="col-lg-6 text-justify">
+                    <h2 class="text-center">Call For Papers</h2>
+                    <p class="lead">Nós sabemos que palestrantes são a chave do sucesso para a conferência e esperamos que você envie sua apresentação. ASSUNTOS DIVERSOS! PHPeste está comprometido em criar a conferência que é a mais inclusiva possível. Nós queremos mostrar os tale... <a href="{{ baseUrl }}/call-for-papers.html">leia mais</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Um grande evento com</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-5x">300+</span>
+                                <h4>
+                                    <strong>Participantes</strong>
+                                </h4>
+                                <p>do Brazil inteiro</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-5x">16+</span>
+                                <h4>
+                                    <strong>Horas</strong>
+                                </h4>
+                                <p>de muito PHP</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-5x">28+</span>
+                                <h4>
+                                    <strong>Palestrantes</strong>
+                                </h4>
+                                <p>brasileiro e internacionais</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-5x">
+                                2
+                            </span>
+                                <h4>
+                                    <strong>Trilhas</strong>
+                                </h4>
+                                <p>mais areá de convivência</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Um evento de comuniade feito para comunidades!</h1>
+        </div>
+    </aside>
+
+    <section id="palestrantes" class="speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Palestrantes</h2>
+                    <p>PHPeste 2017 terá 2 keynotes internacionais e muitos outros palestrantes nacionais.</p>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="palestrantes-item">
+                                <a href="#">
+                                    <img class="img-speakers img-responsive" src="img/palestrante-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="palestrantes-item">
+                                <a href="#">
+                                    <img class="img-speakers img-responsive" src="img/palestrante-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.337238381787!2d-38.48839568521189!3d-3.736488597281544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7488009fa3f5b%3A0x20e826bb1bb5e194!2sFaculdade+Farias+Brito!5e0!3m2!1spt-BR!2sbr!4v1493649570472"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.337238381787!2d-38.48839568521189!3d-3.736488597281544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7488009fa3f5b%3A0x20e826bb1bb5e194!2sFaculdade+Farias+Brito!5e0!3m2!1spt-BR!2sbr!4v1493649570472"></a>
+        </small>
+    </section>
+{% endblock %}

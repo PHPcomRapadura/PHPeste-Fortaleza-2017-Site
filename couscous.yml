@@ -1,10 +1,11 @@
 template:
-    directory: web
+    directory: .
     index: index.md
 
-title: Fortaleza | PHPeste 2017
+title: PHPeste - Conferência de PHP do Nordeste
 title_home: PHPeste 2017
-
+baseUrl: http://localhost:8000/index.html
+basePath: http://localhost:8000/index.html
 exclude:
     - vendor
     - composer.json
@@ -13,5 +14,6 @@ exclude:
     - .gitignore
     - .couscous
     - .idea
+    - .DS_Store
 
 branch: gh-pages

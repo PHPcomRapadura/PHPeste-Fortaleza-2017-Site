@@ -1,0 +1,19 @@
+{% extends "default.twig" %}
+
+{% block content %}
+    <!-- Header -->
+    <header id="top" class="header pages" style="background: url('{{ bg_path }}') no-repeat center center scroll; background-size: cover;">
+        <div class="text-vertical-botton">
+            <h1 class="title">{{ page_title }}</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                {{ content|raw }}
+            </div>
+        </div>
+    </main>
+
+{% endblock %}
