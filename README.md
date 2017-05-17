@@ -5,3 +5,7 @@ O site está baseado em um gerador estático, o http://couscous.io/ pois lembra 
 ### Visualização
 
 Para visualizar instale o couscous.io na sua maquina ```composer global require couscous/couscous``` e execute o seguinte comando para executar o projeto na sua maquina ```couscous preview```, abra a url ```http://localhost:8000/index.html```.
+
+### Deploy
+
+Para fazer deploy execute o comando ```couscous deploy``` e visualize na pagina ```https://phpcomrapadura.github.io/PHPeste-Fortaleza-2017-Site/```.
